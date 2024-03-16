@@ -1,0 +1,92 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: center;
+}
+.nav-content-mobile {
+  margin: auto;
+  width: 100vw;
+}
+.nav-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.website-logo {
+  width: 110px;
+}
+.logout-mobile-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.logout-icon {
+  width: 30px;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-around;
+  background-color: #e6f6ff;
+  width: 90vw;
+  margin: auto;
+  padding: 8px;
+  align-items: center;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.nav-link {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+.nav-item-icon {
+  width: 30px;
+}
+.nav-content-desktop {
+  display: none;
+}
+.logout-desktop-btn {
+  color: white;
+  background-color: #0b69ff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  height: 40px;
+  width: 90px;
+  border-width: 0;
+  border-radius: 6px;
+  padding: 5px;
+}
+@media screen and (min-width: 768px) {
+  .nav-header-container {
+    width: 80%;
+  }
+  .website-logo {
+    width: 165px;
+  }
+  .nav-content-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+  .nav-content-mobile {
+    display: none;
+  }
+  .nav-menu {
+    background-color: transparent;
+  }
+  .nav-link {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}
